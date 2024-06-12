@@ -3,8 +3,10 @@ from docx import Document
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from docx.shared import Pt
 import tempfile
-import zipfile
-import os
+
+# Initialize session state for user stories if it doesn't exist
+if 'user_stories' not in st.session_state:
+    st.session_state.user_stories = []
 
 # Function to create a Word document for multiple user stories
 def create_user_story_doc(stories):
@@ -37,18 +39,9 @@ def create_user_story_doc(stories):
         table.cell(4, 0).merge(table.cell(4, 1))
         table.cell(4, 0).text = f"So that: {so_that}"
 
-        # Set alignment
-        for row in table.rows:
-            for cell in row.cells:
-                for paragraph in cell.paragraphs:
-                    paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
-
         doc.add_paragraph()  # Add a blank line between stories
 
     return doc
-
-# List to store multiple user stories
-user_stories = []
 
 st.title('User Story Generator')
 
@@ -62,19 +55,21 @@ so_that = st.text_area('So that', 'all users see product suggestions without nee
 
 if st.button('Add Story'):
     functionality_list = functionality.split('\n')
-    user_stories.append((title, priority, user_story_desc, as_a, i_want_to, functionality_list, so_that))
+    st.session_state.user_stories.append((title, priority, user_story_desc, as_a, i_want_to, functionality_list, so_that))
     st.success('User story added successfully.')
 
 if st.button('Download All Stories'):
-    if user_stories:
-        doc = create_user_story_doc(user_stories)
+    if st.session_state.user_stories:
+        doc = create_user_story_doc(st.session_state.user_stories)
         with tempfile.NamedTemporaryFile(delete=False, suffix=".docx") as tmp:
             doc.save(tmp.name)
-            tmp.seek(0)
-            st.download_button('Download User Stories Document', tmp, file_name='User_Stories.docx')
+            tmp_path = tmp.name
+
+        with open(tmp_path, 'rb') as f:
+            st.download_button('Download User Stories Document', f, file_name='User_Stories.docx')
     else:
         st.warning('No user stories to download.')
 
 if st.button('Clear All Stories'):
-    user_stories.clear()
+    st.session_state.user_stories.clear()
     st.success('All user stories cleared.')
