@@ -1,0 +1,600 @@
+[
+    { 
+    "Page_title": "Landing Page Guest",
+    "Data": 
+    [
+        {
+            "Title": "Homepage and Navbar for Guest",
+            "Priority": "High",
+            "User Type": "Guest User",
+            "Functionality": "Create homepage with a navbar for guest users, including logo, signup, and login links with redirect logic",
+            "So That": "Guest users can browse the site and navigate easily to essential features",
+            "Requirements": "As a guest user, I want a homepage with a navbar that includes logo, signup, and login options to browse the site and access essential features"
+          },
+          {
+            "Title": "Category Dropdown",
+            "Priority": "Low",
+            "User Type": "User",
+            "Functionality": "Allow users to select and view products by category",
+            "So That": "Users can easily find products within specific categories",
+            "Requirements": "As a user, I want a category dropdown to select and view products by category"
+          },
+          {
+            "Title": "Search Bar in Guest Navbar",
+            "Priority": "Low",
+            "User Type": "Guest User",
+            "Functionality": "Create a search bar in the guest navbar",
+            "So That": "Guest users can search for products on the site",
+            "Requirements": "As a guest user, I want a search bar in the navbar to find products easily"
+          },
+          {
+            "Title": "Category Card List on Guest Homepage",
+            "Priority": "High",
+            "User Type": "Guest User",
+            "Functionality": "Render category card list on the guest homepage",
+            "So That": "Guest users can see and navigate through available product categories",
+            "Requirements": "As a guest user, I want to see a list of available categories on the homepage to browse products by category"
+          },
+          {
+            "Title": "Product Card List on Guest Homepage",
+            "Priority": "High",
+            "User Type": "Guest User",
+            "Functionality": "Render product card list on the guest homepage",
+            "So That": "Guest users can see available products",
+            "Requirements": "As a guest user, I want to see a list of available products on the homepage so that I can browse and select products to view in detail"
+          }
+
+    ]
+    },
+    {
+       "Page_title":"Category Page Guest User",
+       "Data":[
+        {
+          "Title": "Category Page Design for Guest",
+          "Priority": "High",
+          "User Type": "Guest User",
+          "Functionality": "Design a category page with the same navbar as the homepage and display the description of the category",
+          "So That": "Guest users can browse products by category and understand what the category includes",
+          "Requirements": "As a guest user, I want a category page with a navbar that includes logo, signup, login options, and a description of the category so that I can navigate the site easily and understand the category."
+        },
+        {
+          "Title": "Search Bar and Category Dropdown in Category Page for Guest",
+          "Priority": "High",
+          "User Type": "Guest User",
+          "Functionality": "Include search bar and category dropdown in the category page",
+          "So That": "Guest users can search for specific products and navigate between categories",
+          "Requirements": "As a guest user, I want a search bar and category dropdown in the category page so that I can find specific products and switch between categories easily."
+        },
+        {
+          "Title": "Product Card List in Category Page for Guest",
+          "Priority": "High",
+          "User Type": "Guest User",
+          "Functionality": "Render product card list of products within the category",
+          "So That": "Guest users can browse and select products within the category",
+          "Requirements": "As a guest user, I want to see a list of products within the category on the category page so that I can browse and select products."
+        },
+        {
+          "Title": "Sort Option in Category Page for Guest",
+          "Priority": "Low",
+          "User Type": "Guest User",
+          "Functionality": "Include sort option to sort products within the category",
+          "So That": "Guest users can sort products by price or other criteria",
+          "Requirements": "As a guest user, I want to have the option to sort products within the category so that I can view them by price or other criteria."
+        }
+      ]      
+    },
+    {
+        "Page_title": "Product Page Guest User",
+        "Data": [
+          {
+            "Title": "Product Page Design for Guest",
+            "Priority": "High",
+            "User Type": "Guest User",
+            "Functionality": "Design a product page with the same navbar as the homepage for guest users.",
+            "So That": "Guest users can browse and view individual products while having consistent navigation options.",
+            "Requirements": "As a guest user, I want a product page with a navbar that matches the homepage, so I can easily navigate the site."
+          },
+          {
+            "Title": "Category Dropdown and Search Box on Product Page",
+            "Priority": "High",
+            "User Type": "Guest User",
+            "Functionality": "Include a category dropdown and search box on the product page.",
+            "So That": "Guest users can search for specific products and navigate to different categories from the product page.",
+            "Requirements": "As a guest user, I want a search box and category dropdown on the product page, so I can find products quickly and navigate categories easily."
+          },
+          {
+            "Title": "Product Image Component",
+            "Priority": "High",
+            "User Type": "Guest User",
+            "Functionality": "Display the main product image with the option to view the next image using small thumbnails.",
+            "So That": "Guest users can see multiple images of a product for a better understanding of the product.",
+            "Requirements": "As a guest user, I want to view different images of a product using small thumbnails, so I can see various angles and details of the product."
+          },
+          {
+            "Title": "Product Information Card",
+            "Priority": "High",
+            "User Type": "Guest User",
+            "Functionality": "Show the product name, description, and price in a product information card.",
+            "So That": "Guest users can get detailed information about the product at a glance.",
+            "Requirements": "As a guest user, I want to see the product name, description, and price on the product page, so I can make informed purchasing decisions."
+          },
+          {
+            "Title": "Stock Status Display",
+            "Priority": "High",
+            "User Type": "Guest User",
+            "Functionality": "Display the stock status of the product on the product page.",
+            "So That": "Guest users know if the product is available for purchase.",
+            "Requirements": "As a guest user, I want to see the stock status of a product, so I know if it is available for purchase or out of stock."
+          },
+          {
+            "Title": "Recommended Product Card",
+            "Priority": "Low",
+            "User Type": "Guest User",
+            "Functionality": "Show recommended product cards on the product page.",
+            "So That": "Guest users can see other products they might be interested in.",
+            "Requirements": "As a guest user, I want to see recommended products on the product page, so I can explore similar or complementary products."
+          }
+        ]
+      },
+      {
+        "Page_title": "Search Page Guest User",
+        "Data": [
+          {
+            "Title": "Search Page Design for Guest",
+            "Priority": "High",
+            "User Type": "Guest User",
+            "Functionality": "Design a search result page with the same navbar as the homepage for guest users.",
+            "So That": "Guest users can navigate the site consistently while viewing search results.",
+            "Requirements": "As a guest user, I want a search result page with a navbar that matches the homepage, so I can easily navigate the site."
+          },
+          {
+            "Title": "Search Box and Category Dropdown on Search Page",
+            "Priority": "High",
+            "User Type": "Guest User",
+            "Functionality": "Include a search box and category dropdown on the search result page.",
+            "So That": "Guest users can perform new searches and filter results by category from the search result page.",
+            "Requirements": "As a guest user, I want a search box and category dropdown on the search result page, so I can refine my search and find products quickly."
+          },
+          {
+            "Title": "Display Search Result Message and Product List",
+            "Priority": "High",
+            "User Type": "Guest User",
+            "Functionality": "Display a text message like 'Search result for the product' and show a list of products based on the search query.",
+            "So That": "Guest users can see the search results clearly and browse the products that match their search criteria.",
+            "Requirements": "As a guest user, I want to see a message indicating the search results and a list of products that match my search query, so I know what products are available based on my search."
+          }
+        ]
+      },
+      {
+        "Page_title": "Landing Page Registered User",
+        "Data": [
+            {
+                "Title": "Homepage and Navbar for Registered User",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Create homepage with a navbar for registered users, including logo, cart, user profile, and logout links with redirect logic",
+                "So That": "Registered users can browse the site and navigate easily to essential features",
+                "Requirements": "As a registered user, I want a homepage with a navbar that includes logo, cart, user profile, and logout options to browse the site and access essential features"
+            },
+            {
+                "Title": "Category Dropdown",
+                "Priority": "Low",
+                "User Type": "Registered User",
+                "Functionality": "Allow users to select and view products by category",
+                "So That": "Users can easily find products within specific categories",
+                "Requirements": "As a registered user, I want a category dropdown to select and view products by category"
+            },
+            {
+                "Title": "Search Bar in Registered User Navbar",
+                "Priority": "Low",
+                "User Type": "Registered User",
+                "Functionality": "Create a search bar in the registered user navbar",
+                "So That": "Registered users can search for products on the site",
+                "Requirements": "As a registered user, I want a search bar in the navbar to find products easily"
+            },
+            {
+                "Title": "Category Card List on Registered User Homepage",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Render category card list on the registered user homepage",
+                "So That": "Registered users can see and navigate through available product categories",
+                "Requirements": "As a registered user, I want to see a list of available categories on the homepage to browse products by category"
+            },
+            {
+                "Title": "Product Card List on Registered User Homepage",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Render product card list on the registered user homepage",
+                "So That": "Registered users can see available products",
+                "Requirements": "As a registered user, I want to see a list of available products on the homepage so that I can browse and select products to view in detail"
+            },
+            {
+                "Title": "Logout Option for Registered User",
+                "Priority": "Medium",
+                "User Type": "Registered User",
+                "Functionality": "Include a logout option in the registered user navbar",
+                "So That": "Registered users can log out from their account securely",
+                "Requirements": "As a registered user, I want a logout option in the navbar to log out of my account securely"
+            }
+        ]
+    },
+    {
+        "Page_title": "Category Page Registered User",
+        "Data": [
+            {
+                "Title": "Category Page Design for Registered User",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Design a category page with the same navbar as the homepage for registered users, including logo, cart, user profile, and logout links with redirect logic",
+                "So That": "Registered users can browse products by category and navigate easily to essential features",
+                "Requirements": "As a registered user, I want a category page with a navbar that matches the homepage, so I can easily navigate the site"
+            },
+            {
+                "Title": "Search Bar and Category Dropdown in Category Page for Registered User",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Include a search bar and category dropdown in the category page",
+                "So That": "Registered users can search for specific products and navigate to different categories from the category page",
+                "Requirements": "As a registered user, I want a search bar and category dropdown on the category page, so I can find products quickly and navigate categories easily"
+            },
+            {
+                "Title": "Product Card List in Category Page for Registered User",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Render a product card list of products within the category",
+                "So That": "Registered users can browse and select products within the category",
+                "Requirements": "As a registered user, I want to see a list of products within the category, so I can browse and select products to view in detail"
+            },
+            {
+                "Title": "Sort Option in Category Page for Registered User",
+                "Priority": "Low",
+                "User Type": "Registered User",
+                "Functionality": "Include a sort option to sort products within the category by price or other criteria",
+                "So That": "Registered users can sort products by price or other criteria",
+                "Requirements": "As a registered user, I want to have the option to sort products by price or other criteria, so I can find the most relevant products"
+            }
+        ]
+    },
+    {
+        "Page_title": "Product Page Registered User",
+        "Data": [
+            {
+                "Title": "Product Page Design for Registered User",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Design a product page with the same navbar as the homepage for registered users, including logo, cart, user profile, and logout links with redirect logic",
+                "So That": "Registered users can browse and view individual products while having consistent navigation options",
+                "Requirements": "As a registered user, I want a product page with a navbar that matches the homepage, so I can easily navigate the site"
+            },
+            {
+                "Title": "Product Image Component",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Display the main product image with the option to view the next image using small thumbnails",
+                "So That": "Registered users can see multiple images of a product for a better understanding of the product",
+                "Requirements": "As a registered user, I want to view different images of a product using small thumbnails, so I can see various angles and details of the product"
+            },
+            {
+                "Title": "Product Information Card",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Show the product name, description, and price in a product information card",
+                "So That": "Registered users can get detailed information about the product at a glance",
+                "Requirements": "As a registered user, I want to see the product name, description, and price on the product page, so I can make informed purchasing decisions"
+            },
+            {
+                "Title": "Stock Status Display",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Display the stock status of the product on the product page",
+                "So That": "Registered users know if the product is available for purchase",
+                "Requirements": "As a registered user, I want to see the stock status of a product, so I know if it is available for purchase or out of stock"
+            },
+            {
+                "Title": "Recommended Product Card",
+                "Priority": "Medium",
+                "User Type": "Registered User",
+                "Functionality": "Show recommended product cards on the product page",
+                "So That": "Registered users can see other products they might be interested in",
+                "Requirements": "As a registered user, I want to see recommended products on the product page, so I can explore similar or complementary products"
+            },
+            {
+                "Title": "Adjust Quantity While Purchasing",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Allow registered users to adjust the quantity of the product they want to purchase",
+                "So That": "Registered users can buy the exact quantity of product they need",
+                "Requirements": "As a registered user, I want to adjust the quantity of the product I am purchasing, so I can buy the exact amount I need"
+            },
+            {
+                "Title": "Add to Cart or Buy Now Option",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Provide options to add the product to the cart or buy now, with a redirect to the checkout page when 'Buy Now' is clicked",
+                "So That": "Registered users can choose to add the product to their cart for later or proceed to checkout immediately",
+                "Requirements": "As a registered user, I want the option to add the product to my cart or buy now, so I can choose to continue shopping or proceed to checkout immediately when 'Buy Now' is clicked"
+            }
+        ]
+    },
+    {
+        "Page_title": "Search Page Registered User",
+        "Data": [
+            {
+                "Title": "Search Page Design for Registered User",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Design a search result page with the same navbar as the homepage for registered users.",
+                "So That": "Registered users can navigate the site consistently while viewing search results.",
+                "Requirements": "As a registered user, I want a search result page with a navbar that matches the homepage, so I can easily navigate the site."
+            },
+            {
+                "Title": "Search Box and Category Dropdown on Search Page",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Include a search box and category dropdown on the search result page.",
+                "So That": "Registered users can perform new searches and filter results by category from the search result page.",
+                "Requirements": "As a registered user, I want a search box and category dropdown on the search result page, so I can refine my search and find products quickly."
+            },
+            {
+                "Title": "Display Search Result Message and Product List",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Display a text message like 'Search result for the product' and show a list of products based on the search query.",
+                "So That": "Registered users can see the search results clearly and browse the products that match their search criteria.",
+                "Requirements": "As a registered user, I want to see a message indicating the search results and a list of products that match my search query, so I know what products are available based on my search."
+            }
+        ]
+    },    
+    {
+        "Page_title": "Checkout Page Registered User",
+        "Data": [
+            {
+                "Title": "Checkout Page Navbar for Registered User",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Design the checkout page with the same navbar as the homepage for registered users, including logo, cart, user profile, and logout links with redirect logic",
+                "So That": "Registered users can navigate the site consistently while on the checkout page",
+                "Requirements": "As a registered user, I want a checkout page with a navbar that matches the homepage, so I can easily navigate the site"
+            },
+            {
+                "Title": "Product Card in Checkout Page",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Show product cards in the checkout page that display product details, small thumbnail, and quantity",
+                "So That": "Registered users can see the products they are about to purchase with all necessary details",
+                "Requirements": "As a registered user, I want to see product cards with details, thumbnails, and quantities in the checkout page, so I can review my purchase"
+            },
+            {
+                "Title": "Adjust Quantity in Checkout Page",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Allow registered users to adjust the quantity of the products in the checkout page",
+                "So That": "Registered users can modify the quantity of products before finalizing the purchase",
+                "Requirements": "As a registered user, I want to adjust the quantity of the products in the checkout page, so I can make changes before checking out"
+            },
+            {
+                "Title": "Pricing and Grand Total in Sidebar",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Display a right sidebar with pricing details of the products and the grand total, including an option to proceed to checkout",
+                "So That": "Registered users can see the total cost and proceed to complete the purchase",
+                "Requirements": "As a registered user, I want to see the pricing details and grand total in a sidebar, so I can review the cost and proceed to checkout"
+            },
+            {
+                "Title": "Continue Shopping Button in Checkout Page",
+                "Priority": "Medium",
+                "User Type": "Registered User",
+                "Functionality": "Include a 'Continue Shopping' button in the checkout page",
+                "So That": "Registered users can go back to shopping if they want to add more items",
+                "Requirements": "As a registered user, I want a 'Continue Shopping' button in the checkout page, so I can return to browsing products if I decide to add more items"
+            }
+        ]
+    },
+    {
+        "Page_title": "Order Confirmation Page Registered User",
+        "Data": [
+            {
+                "Title": "Order Confirmation Page Navbar for Registered User",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Design the order confirmation page with the same navbar as the homepage for registered users, including logo, cart, user profile, and logout links with redirect logic",
+                "So That": "Registered users can navigate the site consistently while on the order confirmation page",
+                "Requirements": "As a registered user, I want an order confirmation page with a navbar that matches the homepage, so I can easily navigate the site"
+            },
+            {
+                "Title": "Order Confirmation Container",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Display an order confirmation container showing the details of the order",
+                "So That": "Registered users can see the confirmation and details of their order",
+                "Requirements": "As a registered user, I want to see an order confirmation container, so I can review the details of my completed order"
+            },
+            {
+                "Title": "Continue Shopping Button on Order Confirmation Page",
+                "Priority": "Medium",
+                "User Type": "Registered User",
+                "Functionality": "Include a 'Continue Shopping' button on the order confirmation page",
+                "So That": "Registered users can go back to shopping after confirming their order",
+                "Requirements": "As a registered user, I want a 'Continue Shopping' button on the order confirmation page, so I can return to browsing and shopping for more products"
+            }
+        ]
+    },
+    {
+        "Page_title": "Profile Page Registered User",
+        "Data": [
+            {
+                "Title": "User Profile Page Design for Registered User",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Design a user profile page with the same navbar as the homepage for registered users, including logo, cart, user profile, and logout links with redirect logic",
+                "So That": "Registered users can navigate easily to essential features from their profile page",
+                "Requirements": "As a registered user, I want a profile page with a navbar that matches the homepage, so I can easily navigate the site"
+            },
+            {
+                "Title": "User Info Card in Profile Page for Registered User",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Display a user info card that shows the user's name, email, address, and includes an option to edit these details",
+                "So That": "Registered users can view and update their personal information",
+                "Requirements": "As a registered user, I want to see my name, email, and address on my profile page, and I want to be able to edit this information"
+            },
+            {
+                "Title": "Order History in Profile Page for Registered User",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Display the order history of the user, showing past orders with details such as order date, items, and status",
+                "So That": "Registered users can view their past orders and order details",
+                "Requirements": "As a registered user, I want to see a list of my past orders with details like order date, items, and status, so I can keep track of my purchases"
+            },
+            {
+                "Title": "Logout Option in Profile Page for Registered User",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Include a logout option on the profile page",
+                "So That": "Registered users can log out from their profile page easily",
+                "Requirements": "As a registered user, I want a logout option on my profile page, so I can log out from the site easily"
+            }
+        ]
+    },
+    {
+        "Page_title": "Edit Profile Page Registered User",
+        "Data": [
+            {
+                "Title": "Edit Profile Page with Preloaded Info for Registered User",
+                "Priority": "High",
+                "User Type": "Registered User",
+                "Functionality": "Design an edit profile page that preloads the user's name, email, and address in input forms, includes a reset password link, and an update button",
+                "So That": "Registered users can view and update their information easily and reset their passwords if needed",
+                "Requirements": "As a registered user, I want an edit profile page that preloads my current info, provides a reset password link, and includes an update button, so I can view and update my details quickly"
+            }
+        ]
+    },
+    {
+        "Page_title": "Login Page User",
+        "Data": [
+            {
+                "Title": "User Login Form",
+                "Priority": "High",
+                "User Type": "User",
+                "Functionality": "Design a login form with fields for username and password",
+                "So That": "Users can enter their credentials to log in",
+                "Requirements": "As a user, I want a login form with fields for my username and password, so I can log in to my account"
+            },
+            {
+                "Title": "Not Registered Link",
+                "Priority": "High",
+                "User Type": "User",
+                "Functionality": "Include a link on the login page for users who are not registered",
+                "So That": "New users can navigate to the registration page",
+                "Requirements": "As a user who is not registered, I want a link on the login page to navigate to the registration page, so I can create a new account"
+            },
+            {
+                "Title": "Forgot Password Link",
+                "Priority": "High",
+                "User Type": "User",
+                "Functionality": "Include a forgot password link on the login page",
+                "So That": "Users can reset their password if they forget it",
+                "Requirements": "As a user, I want a link on the login page to reset my password, so I can recover access to my account if I forget my password"
+            },
+            {
+                "Title": "Login Success Message",
+                "Priority": "Medium",
+                "User Type": "User",
+                "Functionality": "Display a success message upon successful login",
+                "So That": "Users receive confirmation that they have logged in successfully",
+                "Requirements": "As a user, I want to see a success message after logging in, so I know that I have successfully logged into my account"
+            }
+        ]
+    },
+    {
+        "Page_title": "Registration Page Guest User",
+        "Data": [
+            {
+                "Title": "User Registration Form for Guest User",
+                "Priority": "High",
+                "User Type": "Guest User",
+                "Functionality": "Design a registration form with fields for name, email, password, and confirm password",
+                "So That": "Guest users can create an account",
+                "Requirements": "As a guest user, I want a registration form with fields for my name, email, password, and confirm password, so I can create a new account"
+            },
+            {
+                "Title": "Password Validation in Registration Form for Guest User",
+                "Priority": "High",
+                "User Type": "Guest User",
+                "Functionality": "Include password validation to ensure passwords meet security criteria and match the confirm password field",
+                "So That": "Guest users can create secure passwords and avoid mistakes",
+                "Requirements": "As a guest user, I want password validation to ensure my password meets security criteria and matches the confirm password, so I can create a secure account"
+            },
+            {
+                "Title": "Registration Success Message for Guest User",
+                "Priority": "Medium",
+                "User Type": "Guest User",
+                "Functionality": "Display a success message upon successful registration",
+                "So That": "Guest users receive confirmation that their account has been created",
+                "Requirements": "As a guest user, I want to see a success message after I register, so I know my account has been created successfully"
+            },
+            {
+                "Title": "Redirect to Login Page after Registration for Guest User",
+                "Priority": "Medium",
+                "User Type": "Guest User",
+                "Functionality": "Redirect users to the login page after successful registration",
+                "So That": "Guest users can log in with their new account",
+                "Requirements": "As a guest user, I want to be redirected to the login page after I register, so I can log in with my new account"
+            }
+        ]
+    },
+    {
+        "Page_title": "Forgot Password Page User",
+        "Data": [
+            {
+                "Title": "Forgot Password Form",
+                "Priority": "High",
+                "User Type": "User",
+                "Functionality": "Design a forgot password form that takes the user's email address",
+                "So That": "Users can initiate the password reset process",
+                "Requirements": "As a user, I want a forgot password form where I can enter my email address, so I can start the process to reset my password"
+            },
+            {
+                "Title": "Email Validation in Forgot Password Form",
+                "Priority": "High",
+                "User Type": "User",
+                "Functionality": "Include validation to ensure the email address is in the correct format and exists in the system",
+                "So That": "Users provide valid email addresses for password reset",
+                "Requirements": "As a user, I want validation to ensure my email address is correct and exists in the system, so I can proceed with resetting my password"
+            },
+            {
+                "Title": "Load Password Reset Form",
+                "Priority": "High",
+                "User Type": "User",
+                "Functionality": "After email validation, load the password reset form on the same page, allowing users to enter and confirm a new password",
+                "So That": "Users can set a new password without navigating to a different page",
+                "Requirements": "As a user, I want the password reset form to load on the same page after my email is validated, so I can reset my password without navigating away"
+            },
+            {
+                "Title": "Password Validation in Reset Form",
+                "Priority": "High",
+                "User Type": "User",
+                "Functionality": "Include password validation to ensure the new password meets security criteria and matches the confirmation password",
+                "So That": "Users can create secure passwords and avoid mistakes",
+                "Requirements": "As a user, I want password validation to ensure my new password meets security criteria and matches the confirmation password, so I can create a secure account"
+            },
+            {
+                "Title": "Reset Success Message",
+                "Priority": "Medium",
+                "User Type": "User",
+                "Functionality": "Display a success message upon successful password reset",
+                "So That": "Users receive confirmation that their password has been reset",
+                "Requirements": "As a user, I want to see a success message after resetting my password, so I know the process was completed successfully"
+            },
+            {
+                "Title": "Redirect to Login Page after Password Reset",
+                "Priority": "Medium",
+                "User Type": "User",
+                "Functionality": "Redirect users to the login page after a successful password reset",
+                "So That": "Users can log in with their new password",
+                "Requirements": "As a user, I want to be redirected to the login page after resetting my password, so I can log in with my new credentials"
+            }
+        ]
+    }
+
+]
